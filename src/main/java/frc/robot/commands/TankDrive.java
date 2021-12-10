@@ -51,8 +51,8 @@ public class TankDrive extends CommandBase {
   // Called every time the scheduler runs while the command is scheduled.
   @Override
   public void execute() {
-    /* (TASK 2M) This is code that runs repeadily so 
-    lets give tankDrive leftPower and rightPower we are getting as input here */
+    /* (TASK 2M) This is code that runs repeatedy.   
+    Let's give to  our tankDrive object the  leftPower AND rightPower */
     drivetrain.tankDrive(leftPower.getAsDouble());
   }
 

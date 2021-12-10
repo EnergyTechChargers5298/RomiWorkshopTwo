@@ -30,7 +30,7 @@ public class RobotContainer {
   Get the Y axis from the right joystick as input for the right wheel. */
   private static final TankDrive tankDrive = new TankDrive(drivetrain, () -> controller.getY(Hand.kLeft));
 
-  /* (TASK 3C) Initialize your arcade drive here with the correct inputs you would need for arcade drive.
+  /* (TASK 3C) Declare and Initialize your arcade drive here with the correct inputs you would need for arcade drive.
   It is x axis for turning and y axis for linear movement */
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
